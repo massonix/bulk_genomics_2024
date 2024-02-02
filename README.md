@@ -40,6 +40,13 @@ DESEQ2 is one of the main "Swiss Army knives" used to analyse RNA-seq data. As s
 - [RNA-seq workflow](https://master.bioconductor.org/packages/release/workflows/vignettes/rnaseqGene/inst/doc/rnaseqGene.html): an end-end RNA-seq analysis using BioConductor packages (from the developers of DESeq2)
 - [DESeq2 workflow tutorial | Differential Gene Expression Analysis | Bioinformatics 101](https://www.youtube.com/watch?v=OzNzO8qwwp0): DESeq2 tutorial by the bioinformagician on youtube
 
+## Clustering
+
+Which distance metric should I use?
+
+- [Great discussion on stackexchange](https://stats.stackexchange.com/questions/459063/best-practices-in-the-selection-of-distance-metric-and-clustering-methods-for-ge). Key questions: _should genes that show the same pattern, but have different levels of overall expression go into the same group (correlation based distance) or different groups (difference based distance)? Is the pattern more important the the overall expression level ? If two genes anti-correlate does that mean they are related and be in the same group, or in different groups (does sign matter)? Should larger deviations be "punished" more (euclidean distance), or all magnitudes of difference are equally important (manhattan distance)?_
+- [Check figure 10.13 from the 1st version from the book Introduction to Statistical Learning ](https://www.stat.berkeley.edu/users/rabbee/s154/ISLR_First_Printing.pdf) for an intuitive understanding of why the choice of distance metric matters.
+
 TODO
 Negative binomial...
 Salmon...
