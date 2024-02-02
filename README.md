@@ -43,6 +43,7 @@ DESEQ2 is one of the main "Swiss Army knives" used to analyse RNA-seq data. As s
 
 Why does DESeq2 use the DESeqDataSet class and not SummarizedExperiment? From the RNA-seq workflow above: _In DESeq2, the custom class is called DESeqDataSet. It is built on top of the SummarizedExperiment class, and it is easy to convert SummarizedExperiment objects into DESeqDataSet objects, which we show below. One of the two main differences is that the assay slot is instead accessed using the counts accessor function, and the DESeqDataSet class enforces that the values in this matrix are non-negative integers. A second difference is that the DESeqDataSet has an associated design formula. The experimental design is specified at the beginning of the analysis, as it will inform many of the DESeq2 functions how to treat the samples in the analysis (one exception is the size factor estimation, i.e., the adjustment for differing library sizes, which does not depend on the design formula). The design formula tells which columns in the sample information table (colData) specify the experimental design and how these factors should be used in the analysis._
 
+Design matrices and formulas are a key component of DESeq2 and other tools for differential expression analysis. [This is a great review](https://f1000research.com/articles/9-1444) to learn how to create them properly and specify the right covariates.
 
 ## Clustering
 
