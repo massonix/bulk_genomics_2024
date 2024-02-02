@@ -45,6 +45,15 @@ Why does DESeq2 use the DESeqDataSet class and not SummarizedExperiment? From th
 
 Design matrices and formulas are a key component of DESeq2 and other tools for differential expression analysis. [This is a great review](https://f1000research.com/articles/9-1444) to learn how to create them properly and specify the right covariates.
 
+These are the 5 steps carried out by the DSEq function:
+
+1. Estimating size factors
+2. Estimating dispersions
+3. gene-wise dispersions estimates
+4. mean-dispersion relationship
+5. final dispersion estimates
+6. fitting model and testing
+
 ## Clustering
 
 Which distance metric should I use?
