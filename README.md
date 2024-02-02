@@ -41,6 +41,9 @@ DESEQ2 is one of the main "Swiss Army knives" used to analyse RNA-seq data. As s
 - [RNA-seq workflow](https://master.bioconductor.org/packages/release/workflows/vignettes/rnaseqGene/inst/doc/rnaseqGene.html): an end-end RNA-seq analysis using BioConductor packages (from the developers of DESeq2)
 - [DESeq2 workflow tutorial | Differential Gene Expression Analysis | Bioinformatics 101](https://www.youtube.com/watch?v=OzNzO8qwwp0): DESeq2 tutorial by the bioinformagician on youtube
 
+Why does DESeq2 use the DESeqDataSet class and not SummarizedExperiment? From the RNA-seq workflow above: _In DESeq2, the custom class is called DESeqDataSet. It is built on top of the SummarizedExperiment class, and it is easy to convert SummarizedExperiment objects into DESeqDataSet objects, which we show below. One of the two main differences is that the assay slot is instead accessed using the counts accessor function, and the DESeqDataSet class enforces that the values in this matrix are non-negative integers._
+
+
 ## Clustering
 
 Which distance metric should I use?
