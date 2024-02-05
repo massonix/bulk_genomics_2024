@@ -71,4 +71,8 @@ Transcript annotations: GENCODE, RefSeq, Ensembl, need to understand their diffe
 - [Great GSEA tutorial from chatomics (Ming Tang](https://www.youtube.com/watch?v=IKCDQEpuJDA)
 - [ClusterProfiler has great documentation](https://yulab-smu.top/biomedical-knowledge-mining-book/clusterprofiler-go.html) on how to run, interpret and plot results from enrichment analysis
 
-  TODO: why GSEA? thershold-free...
+Should one perform over representation anlaysis (ORA) or gene set enrichment analysis (GSEA)? [Answer](https://yulab-smu.top/biomedical-knowledge-mining-book/enrichment-overview.html#ora-algorithm):
+
+_A common approach to analyzing gene expression profiles is identifying differentially expressed genes that are deemed interesting. The ORA enrichment analysis is based on these differentially expressed genes. This approach will find genes where the difference is large and will fail where the difference is small, but evidenced in coordinated way in a set of related genes. Gene Set Enrichment Analysis (GSEA)(Subramanian et al. 2005) directly addresses this limitation. All genes can be used in GSEA; GSEA aggregates the per gene statistics across genes within a gene set, therefore making it possible to detect situations where all genes in a predefined set change in a small but coordinated way. This is important since it is likely that many relevant phenotypic differences are manifested by small but consistent changes in a set of genes._
+
+  
