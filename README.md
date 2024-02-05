@@ -70,3 +70,5 @@ Transcript annotations: GENCODE, RefSeq, Ensembl, need to understand their diffe
 
 - [Great GSEA tutorial from chatomics (Ming Tang](https://www.youtube.com/watch?v=IKCDQEpuJDA)
 - [ClusterProfiler has great documentation](https://yulab-smu.top/biomedical-knowledge-mining-book/clusterprofiler-go.html) on how to run, interpret and plot results from enrichment analysis
+
+  TODO: why GSEA? thershold-free...
