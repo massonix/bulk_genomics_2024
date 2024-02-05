@@ -20,7 +20,6 @@ To learn how NextFlow works I recommend [this YouTube playlist](https://www.yout
 
 ## RNA-seq
 
-
 ## Aligners for RNA-seq
 
 - STAR ([paper](https://academic.oup.com/bioinformatics/article/29/1/15/272537?login=false) / [github](https://github.com/alexdobin/STAR)): STAR is a read aligner designed for splice aware mapping typical of RNA sequencing data. STAR stands for Spliced Transcripts Alignment to a Reference, and has been shown to have high accuracy and outperforms other aligners by more than a factor of 50 in mapping speed, but it is memory intensive.
@@ -67,3 +66,7 @@ Salmon...
 tx import...
 Transcript annotations: GENCODE, RefSeq, Ensembl, need to understand their differences and how to convert between them
 
+## Enrichment analysis
+
+- [Great GSEA tutorial from chatomics (Ming Tang](https://www.youtube.com/watch?v=IKCDQEpuJDA)
+- [ClusterProfiler has great documentation](https://yulab-smu.top/biomedical-knowledge-mining-book/clusterprofiler-go.html) on how to run, interpret and plot results from enrichment analysis
