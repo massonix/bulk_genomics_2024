@@ -81,6 +81,7 @@ _A common approach to analyzing gene expression profiles is identifying differen
 ### Reviews
 
 - [Chromatin accessibility profiling by ATAC-seq](https://www.nature.com/articles/s41596-022-00692-9)
+- [Deciphering the multi-scale, quantitative cis-regulatory code](https://www.cell.com/molecular-cell/pdf/S1097-2765(22)01215-1.pdf)
 
 
 ### TF footprinting
