@@ -78,6 +78,11 @@ _A common approach to analyzing gene expression profiles is identifying differen
   
 ## ATAC-seq
 
+### Reviews
+
+- [https://www.nature.com/articles/s41596-022-00692-9](https://www.nature.com/articles/s41596-022-00692-9)
+
+
 ### TF footprinting
 
 [Biases: Tn5 transposase has cleavege preferences that need to be modeled by TF footprinting tools](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1642-2)
