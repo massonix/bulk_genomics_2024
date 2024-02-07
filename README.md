@@ -80,4 +80,12 @@ _A common approach to analyzing gene expression profiles is identifying differen
 
 ### TF footprinting
 
-- [Biases: Tn5 transposase has cleavege preferences that need to be modeled by TF footprinting tools](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1642-2)
+[Biases: Tn5 transposase has cleavege preferences that need to be modeled by TF footprinting tools](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1642-2)
+
+TOBIAS ([paper](https://www.nature.com/articles/s41467-020-18035-1) / [wiki](https://github.com/loosolab/TOBIAS/wiki) ): Transcription factor Occupancy prediction By Investigation of ATAC-seq Signal. Key steps:
+
+1. [ATACorrect](https://github.com/loosolab/TOBIAS/wiki/ATACorrect): correct BigWig file removing the sequence-specificity of the Tn5 transposase
+2. [ScoreBigwig](https://github.com/loosolab/TOBIAS/wiki/ScoreBigwig): calculate TOBIAS footprint score by finding signals of depleted accessibility (TF binding) flanked by regions with enriched accessibility
+3. [BINDetect](https://github.com/loosolab/TOBIAS/wiki/BINDetect): include TF motifs to find differentially regulatory signals between conditions.
+
+
