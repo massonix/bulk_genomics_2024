@@ -94,4 +94,12 @@ TOBIAS ([paper](https://www.nature.com/articles/s41467-020-18035-1) / [wiki](htt
 2. [ScoreBigwig](https://github.com/loosolab/TOBIAS/wiki/ScoreBigwig): calculate TOBIAS footprint score by finding signals of depleted accessibility (TF binding) flanked by regions with enriched accessibility
 3. [BINDetect](https://github.com/loosolab/TOBIAS/wiki/BINDetect): include TF motifs to find differentially regulatory signals between conditions.
 
+### Input/Output
 
+- .bed to GRanges:
+
+```
+library(rtracklayer)
+library(GenomicRanges)
+granges_object <- import("path/to/.bed")
+```
