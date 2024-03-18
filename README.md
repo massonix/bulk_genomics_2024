@@ -103,3 +103,8 @@ library(rtracklayer)
 library(GenomicRanges)
 granges_object <- import("path/to/.bed")
 ```
+
+### Working with GenomicRanges
+
+How to subset a GRanges object to keep only the peaks that overlap with at least one peak from another GRanges object?
+** subsetByOverlaps returns the subset of x that has an overlap hit with a range in ranges using the specified findOverlaps parameters.**
