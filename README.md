@@ -66,7 +66,7 @@ Salmon...
 tx import...
 Transcript annotations: GENCODE, RefSeq, Ensembl, need to understand their differences and how to convert between them
 
-Why should I subset my input matrix before computing distances? The curse of dimensionality:
+Why should I subset my input matrix before computing distances? The curse of dimensionality: in high dimensions, no point is close to any other point. As we increase the number of dimensions, it becomes increasingly unlikely that two points are similar, so distances become more and more unreliable. [Euclidean distance is particularly sensitive to the curse of dimensionality](https://stats.stackexchange.com/questions/99171/why-is-euclidean-distance-not-a-good-metric-in-high-dimensions)
 
 ## Enrichment analysis
 
