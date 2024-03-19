@@ -66,6 +66,8 @@ Salmon...
 tx import...
 Transcript annotations: GENCODE, RefSeq, Ensembl, need to understand their differences and how to convert between them
 
+Why should I subset my input matrix before computing distances? The curse of dimensionality:
+
 ## Enrichment analysis
 
 - [Great GSEA tutorial from chatomics (Ming Tang](https://www.youtube.com/watch?v=IKCDQEpuJDA)
